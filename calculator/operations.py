@@ -1,17 +1,20 @@
-def add(a, b):
-    return a + b
+def add(a, b): 
+    c = a + b;
+    return c
 
 
 def subtract(a, b):
-    # TODO: implement this
-    pass
+    c = a - b;
+    return c
 
 
 def multiply(a, b):
-    # TODO: implement this
-    pass
+    c = a * b;
+    return c
 
 
 def divide(a, b):
-    # TODO: implement this (don't forget to handle division by zero)
-    pass
+    if b == 0:
+        raise ValueError("Division by zero is not allowed")
+    c = a / b;
+    return c
